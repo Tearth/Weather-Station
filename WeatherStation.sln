@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Master", "Master\Master.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Slave", "Slave\Slave.vcxproj", "{F57BDCC1-5E46-4AEF-9DF3-CCA638A2E9A9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SharedClasses", "SharedClasses\SharedClasses.vcxitems", "{9224EB82-7D80-4C30-89C7-7620D89A1882}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedClasses\SharedClasses.vcxitems*{9224eb82-7d80-4c30-89c7-7620d89a1882}*SharedItemsImports = 9
+		SharedClasses\SharedClasses.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		SharedClasses\SharedClasses.vcxitems*{f57bdcc1-5e46-4aef-9df3-cca638a2e9a9}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+		{F57BDCC1-5E46-4AEF-9DF3-CCA638A2E9A9}.Debug|x86.ActiveCfg = Debug|Win32
+		{F57BDCC1-5E46-4AEF-9DF3-CCA638A2E9A9}.Debug|x86.Build.0 = Debug|Win32
+		{F57BDCC1-5E46-4AEF-9DF3-CCA638A2E9A9}.Release|x86.ActiveCfg = Release|Win32
+		{F57BDCC1-5E46-4AEF-9DF3-CCA638A2E9A9}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

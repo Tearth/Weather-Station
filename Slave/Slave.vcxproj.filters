@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Devices">
+      <UniqueIdentifier>{fed66605-0117-4946-a5a8-950491e3f7a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Devices">
+      <UniqueIdentifier>{0e423d28-5b55-4baf-ac8f-c9f4b8fe07df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Slave">
+      <UniqueIdentifier>{3763b824-1eb8-4d1f-9684-f21110fadaa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Slave">
+      <UniqueIdentifier>{f5d35517-d763-4d71-b3e3-cc63119c363f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Slave\Displays">
+      <UniqueIdentifier>{4f5308fe-561f-4398-92b8-2e4dc8bff01a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Slave\Displays">
+      <UniqueIdentifier>{d66084ff-38da-43fc-8149-60e39a6a093b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.Slave.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DS18B20.h">
+      <Filter>Header Files\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="FS1000A_Receiver.h">
+      <Filter>Header Files\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="HD44780.h">
+      <Filter>Header Files\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="Program.h">
+      <Filter>Header Files\Slave</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayModeButton.h">
+      <Filter>Header Files\Slave</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherDataDisplay.h">
+      <Filter>Header Files\Slave\Displays</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagnosticDisplay.h">
+      <Filter>Header Files\Slave\Displays</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Header Files\Slave</Filter>
+    </ClInclude>
+    <ClInclude Include="StringBuilder.h">
+      <Filter>Header Files\Slave</Filter>
+    </ClInclude>
+    <ClInclude Include="Records.h">
+      <Filter>Header Files\Slave</Filter>
+    </ClInclude>
+    <ClInclude Include="MinMaxPressureDisplay.h">
+      <Filter>Header Files\Slave\Displays</Filter>
+    </ClInclude>
+    <ClInclude Include="MinMaxInsideTempDisplay.h">
+      <Filter>Header Files\Slave\Displays</Filter>
+    </ClInclude>
+    <ClInclude Include="MinMaxOutsideTempDisplay.h">
+      <Filter>Header Files\Slave\Displays</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Slave.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="HD44780.cpp">
+      <Filter>Source Files\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="FS1000A_Receiver.cpp">
+      <Filter>Source Files\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="DS18B20.cpp">
+      <Filter>Source Files\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Source Files\Slave</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayModeButton.cpp">
+      <Filter>Source Files\Slave</Filter>
+    </ClCompile>
+    <ClCompile Include="WeatherDataDisplay.cpp">
+      <Filter>Source Files\Slave\Displays</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagnosticDisplay.cpp">
+      <Filter>Source Files\Slave\Displays</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers.cpp">
+      <Filter>Source Files\Slave</Filter>
+    </ClCompile>
+    <ClCompile Include="StringBuilder.cpp">
+      <Filter>Source Files\Slave</Filter>
+    </ClCompile>
+    <ClCompile Include="Records.cpp">
+      <Filter>Source Files\Slave</Filter>
+    </ClCompile>
+    <ClCompile Include="MinMaxPressureDisplay.cpp">
+      <Filter>Source Files\Slave\Displays</Filter>
+    </ClCompile>
+    <ClCompile Include="MinMaxOutsideTempDisplay.cpp">
+      <Filter>Source Files\Slave\Displays</Filter>
+    </ClCompile>
+    <ClCompile Include="MinMaxInsideTempDisplay.cpp">
+      <Filter>Source Files\Slave\Displays</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
